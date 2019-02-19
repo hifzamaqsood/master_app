@@ -13,6 +13,7 @@
     "git": "^0.1.5"
   }
   "scripts":{
-    "start": "nodejs main.js"
-  }
+     "start": "node main.js"
+    }
+  
 }
