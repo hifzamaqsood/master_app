@@ -23,16 +23,16 @@
 //  var a;  //it don't gives error
 
 // let a;
-// let a; //but in let it gives error like identifier a has been declared
+// let a; //but in let it gives error like identifier 'a' has been declared
 
-//const can't be declared or reassign again and again
+//const can't be declared or re_assign again and again
 
 // const a ; //wrong way
 // a=10;//wrong way
 // const a = 10;  //right way
 
 
-//////creating a server by http built_in modul
+//////creating a server by http built_in module
 
 // const http = require('http');
 // const server = http.createServer((request, response) => {
@@ -41,7 +41,7 @@
 
     
 //         response.statusCode = 200;
-//         response.write('<h1>Hello from Node JS Server</h1>');
+//         response.write('<h1>Hello from Node JS Server </h1>');
 //     }
 //     //response.write(request.url);
 //     else if(request.url == '/hello'){

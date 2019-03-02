@@ -4,7 +4,8 @@
   "description": "This is my first Nodejs program",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
   "author": "Hifza Maqsood",
   "license": "MIT",
@@ -12,8 +13,4 @@
     "express": "^4.16.4",
     "git": "^0.1.5"
   }
-  "scripts":{
-     "start": "node main.js"
-    }
-  
 }
